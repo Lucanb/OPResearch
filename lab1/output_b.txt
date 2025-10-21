@@ -1,0 +1,12 @@
+Coeficientii functiei de minimizat:
+0.000 4.000 7.000 0.000 3.000 0.000 
+
+Solutie de baza optima:
+x1 = 4.000
+x2 = 0.000
+x3 = 0.000
+x4 = 2.000
+x5 = 0.000
+x6 = 2.000
+
+Valoarea minima: -24.000
