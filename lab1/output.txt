@@ -1,9 +1,0 @@
-Coeficientii functiei de minimizat (ultimul rand):
-0.000 0.000 2.250 0.250 
-
-Solutie de baza optima:
-x1 = 2.000
-x2 = 3.000
-x3 = 0.000
-
-Valoarea optima (minima): 21.000

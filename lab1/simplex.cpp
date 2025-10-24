@@ -15,14 +15,16 @@ void run_simplex(const string &infile, const string &outfile) {
         for (int j = 0; j < n; j++)
             fin >> t[i][j];
     fin.close();
+
     vector<int> basis(m);
     for (int i = 0; i < m; i++) basis[i] = n - m + i - 1;
 
     while (true) {
         int l = -1;
         for (int j = 0; j < n - 1; j++)
-            if (t[m][j] < 0) { l = j; break; }
+            if (t[m][j] < 0) { l = j; break; }  // prima coloană negativă — Bland
         if (l == -1) break;
+
         bool unbounded = true;
         for (int i = 0; i < m; i++)
             if (t[i][l] > 0) { unbounded = false; break; }
@@ -31,6 +33,7 @@ void run_simplex(const string &infile, const string &outfile) {
             fout.close();
             return;
         }
+
         int k = -1;
         double minRatio = numeric_limits<double>::infinity();
         for (int i = 0; i < m; i++) {
@@ -42,6 +45,7 @@ void run_simplex(const string &infile, const string &outfile) {
                 }
             }
         }
+
         for (int i = 0; i <= m; i++)
             if (i != k)
                 for (int j = 0; j < n; j++)
@@ -61,20 +65,25 @@ void run_simplex(const string &infile, const string &outfile) {
     fout << "Coeficientii functiei de minimizat:\n";
     for (int j = 0; j < n - 1; j++) fout << t[m][j] << " ";
     fout << "\n\nSolutie de baza optima:\n";
+
     vector<double> sol(n - 1, 0.0);
     for (int i = 0; i < m; i++)
         if (basis[i] < n - 1)
             sol[basis[i]] = t[i][n - 1];
     for (int j = 0; j < n - 1; j++)
         fout << "x" << j + 1 << " = " << sol[j] << "\n";
+
     double val = t[m][n - 1];
     if (val > 0) val = -val;
     fout << "\nValoarea minima: " << val << "\n";
     fout.close();
 }
 
-int main() {
-    run_simplex("input_a.txt", "output_a.txt");
-    run_simplex("input_b.txt", "output_b.txt");
+int main(int argc, char* argv[]) {
+    if (argc != 3) {
+        cerr << "Utilizare: ./simplex_exec <fisier_intrare> <fisier_iesire>\n";
+        return 1;
+    }
+    run_simplex(argv[1], argv[2]);
     return 0;
 }
