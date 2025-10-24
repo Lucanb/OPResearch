@@ -1,0 +1,603 @@
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:37:18 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /media/lolluckestar/D/Gurobi/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-10-08
+
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file problem_a.lp
+Reading time = 0.00 seconds
+: 3 rows, 3 columns, 8 nonzeros
+
+Using Gurobi shared library /media/lolluckestar/D/Gurobi/gurobi1203/linux64/lib/libgurobi.so.12.0.3
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3 rows, 3 columns and 8 nonzeros
+Model fingerprint: 0xd889fb5e
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 8e+00]
+Presolve time: 0.00s
+Presolved: 3 rows, 3 columns, 8 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.0000000e+30   1.500000e+30   2.000000e+00      0s
+       3   -3.3333333e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -3.333333333e-01
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:39:53 2025
+
+Set parameter LogFile to value "gurobi.log"
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:39:53 2025
+
+Set parameter LogFile to value "gurobi.log"
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:39:53 2025
+
+Set parameter LogFile to value "gurobi.log"
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:39:53 2025
+
+Set parameter LogFile to value "gurobi.log"
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:40:05 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /media/lolluckestar/D/Gurobi/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-10-08
+
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file problem_a.lp
+Reading time = 0.00 seconds
+: 3 rows, 3 columns, 8 nonzeros
+
+Using Gurobi shared library /media/lolluckestar/D/Gurobi/gurobi1203/linux64/lib/libgurobi.so.12.0.3
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3 rows, 3 columns and 8 nonzeros
+Model fingerprint: 0xd889fb5e
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 8e+00]
+Presolve time: 0.00s
+Presolved: 3 rows, 3 columns, 8 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.0000000e+30   1.500000e+30   2.000000e+00      0s
+       3   -3.3333333e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -3.333333333e-01
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:41:07 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /media/lolluckestar/D/Gurobi/gurobi.lic
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:41:07 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /media/lolluckestar/D/Gurobi/gurobi.lic
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:41:07 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /media/lolluckestar/D/Gurobi/gurobi.lic
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:41:07 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /media/lolluckestar/D/Gurobi/gurobi.lic
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:43:12 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /media/lolluckestar/D/Gurobi/gurobi.lic
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:43:12 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /media/lolluckestar/D/Gurobi/gurobi.lic
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:43:12 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /media/lolluckestar/D/Gurobi/gurobi.lic
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:43:12 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /media/lolluckestar/D/Gurobi/gurobi.lic
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:46:48 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /media/lolluckestar/D/Gurobi/gurobi.lic
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:46:48 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /media/lolluckestar/D/Gurobi/gurobi.lic
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:46:48 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /media/lolluckestar/D/Gurobi/gurobi.lic
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 10:46:48 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /media/lolluckestar/D/Gurobi/gurobi.lic
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 11:03:53 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /home/lolluckestar/Gurobi/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-10-08
+
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file problem_a.lp
+Reading time = 0.00 seconds
+: 3 rows, 3 columns, 8 nonzeros
+
+Using Gurobi shared library /home/lolluckestar/Gurobi/gurobi1203/linux64/lib/libgurobi.so.12.0.3
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3 rows, 3 columns and 8 nonzeros
+Model fingerprint: 0xd889fb5e
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 8e+00]
+Presolve time: 0.00s
+Presolved: 3 rows, 3 columns, 8 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.0000000e+30   1.500000e+30   2.000000e+00      0s
+       3   -3.3333333e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -3.333333333e-01
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 11:03:53 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /home/lolluckestar/Gurobi/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-10-08
+
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file problem_b.lp
+Reading time = 0.00 seconds
+: 3 rows, 3 columns, 9 nonzeros
+
+Using Gurobi shared library /home/lolluckestar/Gurobi/gurobi1203/linux64/lib/libgurobi.so.12.0.3
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3 rows, 3 columns and 9 nonzeros
+Model fingerprint: 0xcaab04d8
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [4e+00, 7e+00]
+Presolve removed 3 rows and 3 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.3333333e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.333333333e+00
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 11:03:53 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /home/lolluckestar/Gurobi/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-10-08
+
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file problem_c.lp
+Reading time = 0.00 seconds
+: 4 rows, 4 columns, 16 nonzeros
+
+Using Gurobi shared library /home/lolluckestar/Gurobi/gurobi1203/linux64/lib/libgurobi.so.12.0.3
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 4 rows, 4 columns and 16 nonzeros
+Model fingerprint: 0x5b2241ce
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 8e+00]
+Presolve removed 4 rows and 2 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Infeasible or unbounded model
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 11:03:53 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /home/lolluckestar/Gurobi/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-10-08
+
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file problem_d.lp
+Reading time = 0.00 seconds
+: 3 rows, 3 columns, 9 nonzeros
+
+Using Gurobi shared library /home/lolluckestar/Gurobi/gurobi1203/linux64/lib/libgurobi.so.12.0.3
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3 rows, 3 columns and 9 nonzeros
+Model fingerprint: 0x90051ad4
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [4e+00, 6e+00]
+Presolve time: 0.00s
+Presolved: 3 rows, 3 columns, 9 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -4.0000000e+30   1.500000e+30   4.000000e+00      0s
+       2   -9.3333333e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -9.333333333e+00
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 11:07:19 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /home/lolluckestar/Gurobi/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-10-08
+
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file problem_a.lp
+Reading time = 0.00 seconds
+: 3 rows, 3 columns, 8 nonzeros
+
+Using Gurobi shared library /home/lolluckestar/Gurobi/gurobi1203/linux64/lib/libgurobi.so.12.0.3
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3 rows, 3 columns and 8 nonzeros
+Model fingerprint: 0xd889fb5e
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 8e+00]
+Presolve time: 0.00s
+Presolved: 3 rows, 3 columns, 8 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.0000000e+30   1.500000e+30   2.000000e+00      0s
+       3   -3.3333333e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -3.333333333e-01
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 11:07:19 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /home/lolluckestar/Gurobi/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-10-08
+
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file problem_b.lp
+Reading time = 0.00 seconds
+: 3 rows, 3 columns, 9 nonzeros
+
+Using Gurobi shared library /home/lolluckestar/Gurobi/gurobi1203/linux64/lib/libgurobi.so.12.0.3
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3 rows, 3 columns and 9 nonzeros
+Model fingerprint: 0xcaab04d8
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [4e+00, 7e+00]
+Presolve removed 3 rows and 3 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.3333333e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.333333333e+00
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 11:07:19 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /home/lolluckestar/Gurobi/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-10-08
+
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file problem_c.lp
+Reading time = 0.00 seconds
+: 4 rows, 4 columns, 16 nonzeros
+
+Using Gurobi shared library /home/lolluckestar/Gurobi/gurobi1203/linux64/lib/libgurobi.so.12.0.3
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 4 rows, 4 columns and 16 nonzeros
+Model fingerprint: 0x5b2241ce
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 8e+00]
+Presolve removed 4 rows and 2 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Infeasible or unbounded model
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 11:07:19 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /home/lolluckestar/Gurobi/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-10-08
+
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file problem_d.lp
+Reading time = 0.00 seconds
+: 3 rows, 3 columns, 9 nonzeros
+
+Using Gurobi shared library /home/lolluckestar/Gurobi/gurobi1203/linux64/lib/libgurobi.so.12.0.3
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3 rows, 3 columns and 9 nonzeros
+Model fingerprint: 0x90051ad4
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [4e+00, 6e+00]
+Presolve time: 0.00s
+Presolved: 3 rows, 3 columns, 9 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -4.0000000e+30   1.500000e+30   4.000000e+00      0s
+       2   -9.3333333e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -9.333333333e+00
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 11:09:10 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /home/lolluckestar/Gurobi/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-10-08
+
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file problem_a.lp
+Reading time = 0.00 seconds
+: 3 rows, 3 columns, 8 nonzeros
+
+Using Gurobi shared library /home/lolluckestar/Gurobi/gurobi1203/linux64/lib/libgurobi.so.12.0.3
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3 rows, 3 columns and 8 nonzeros
+Model fingerprint: 0xd889fb5e
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 8e+00]
+Presolve time: 0.00s
+Presolved: 3 rows, 3 columns, 8 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.0000000e+30   1.500000e+30   2.000000e+00      0s
+       3   -3.3333333e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -3.333333333e-01
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 11:09:10 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /home/lolluckestar/Gurobi/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-10-08
+
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file problem_b.lp
+Reading time = 0.00 seconds
+: 3 rows, 3 columns, 9 nonzeros
+
+Using Gurobi shared library /home/lolluckestar/Gurobi/gurobi1203/linux64/lib/libgurobi.so.12.0.3
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3 rows, 3 columns and 9 nonzeros
+Model fingerprint: 0xcaab04d8
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [4e+00, 7e+00]
+Presolve removed 3 rows and 3 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.3333333e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.333333333e+00
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 11:09:10 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /home/lolluckestar/Gurobi/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-10-08
+
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file problem_c.lp
+Reading time = 0.00 seconds
+: 4 rows, 4 columns, 16 nonzeros
+
+Using Gurobi shared library /home/lolluckestar/Gurobi/gurobi1203/linux64/lib/libgurobi.so.12.0.3
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 4 rows, 4 columns and 16 nonzeros
+Model fingerprint: 0x5b2241ce
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 8e+00]
+Presolve removed 4 rows and 2 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Infeasible or unbounded model
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Fri Oct 24 11:09:10 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719952
+Set parameter LogFile to value "gurobi.log"
+Using license file /home/lolluckestar/Gurobi/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-10-08
+
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file problem_d.lp
+Reading time = 0.00 seconds
+: 3 rows, 3 columns, 9 nonzeros
+
+Using Gurobi shared library /home/lolluckestar/Gurobi/gurobi1203/linux64/lib/libgurobi.so.12.0.3
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3 rows, 3 columns and 9 nonzeros
+Model fingerprint: 0x90051ad4
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [4e+00, 6e+00]
+Presolve time: 0.00s
+Presolved: 3 rows, 3 columns, 9 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -4.0000000e+30   1.500000e+30   4.000000e+00      0s
+       2   -9.3333333e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -9.333333333e+00
