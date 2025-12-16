@@ -1,0 +1,18 @@
+Problema: a.lp
+----------------------------------------
+Set parameter Username
+Set parameter LicenseID to value 2755094
+Set parameter LogFile to value "gurobi.log"
+Using license file /Users/lucanb/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-12-15
+
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 24.6.0 24G84)
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Error reading LP format file a.lp at line 2
+LP format file must begin with a keyword
+Neighboring tokens: " obj: 2 x1 + 1 x2 + 3 x4 "
+
+
+Error 10012: Unable to read file
+
