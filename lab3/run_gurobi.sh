@@ -1,20 +1,25 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -e
 
-mkdir -p results
-OUT="results/results.out"
+LP1="a.lp"
+LP2="b.lp"
 
-: > "$OUT"
+OUTDIR="results"
+OUTFILE="$OUTDIR/results.out"
 
-echo "Problema: a.lp" >> "$OUT"
-echo "----------------------------------------" >> "$OUT"
-gurobi_cl ResultFile=results/a.sol a.lp >> "$OUT" 2>&1
-echo "" >> "$OUT"
+mkdir -p "$OUTDIR"
+: > "$OUTFILE"
 
-echo "Problema: b.lp" >> "$OUT"
-echo "----------------------------------------" >> "$OUT"
-gurobi_cl ResultFile=results/b.sol b.lp >> "$OUT" 2>&1
-echo "" >> "$OUT"
+echo "Problema: $LP1" >> "$OUTFILE"
+echo "----------------------------------------" >> "$OUTFILE"
+gurobi_cl ResultFile="$OUTDIR/a.sol" "$LP1" >> "$OUTFILE" 2>&1
+echo "" >> "$OUTFILE"
 
-echo "GATA. Output: $OUT"
-echo "Solutii: results/a.sol si results/b.sol"
+echo "Problema: $LP2" >> "$OUTFILE"
+echo "----------------------------------------" >> "$OUTFILE"
+gurobi_cl ResultFile="$OUTDIR/b.sol" "$LP2" >> "$OUTFILE" 2>&1
+echo "" >> "$OUTFILE"
+
+echo "GATA."
+echo "Output: $OUTFILE"
+echo "Solutii: $OUTDIR/a.sol si $OUTDIR/b.sol"

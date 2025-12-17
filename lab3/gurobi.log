@@ -1,5 +1,5 @@
 
-Gurobi 13.0.0 (mac64[arm], gurobi_cl) logging started Tue Dec 16 18:26:01 2025
+Gurobi 13.0.0 (mac64[arm], gurobi_cl) logging started Wed Dec 17 12:25:03 2025
 
 Set parameter Username
 Set parameter LicenseID to value 2755094
@@ -7,93 +7,7 @@ Set parameter LogFile to value "gurobi.log"
 Using license file /Users/lucanb/gurobi.lic
 Academic license - for non-commercial use only - expires 2026-12-15
 
-Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 24.6.0 24G84)
-Copyright (c) 2025, Gurobi Optimization, LLC
-
-Warning: Numeric variable name in LP file ('0') - often the result
-         of a constant term in the left-hand side of a constraint.
-
-Read LP format model from file a.lp
-Reading time = 0.00 seconds
-obj: 3 rows, 4 columns, 9 nonzeros
-
-Using Gurobi shared library /Library/gurobi1300/macos_universal2/lib/libgurobi130.dylib
-
-CPU model: Apple M4 Pro
-Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
-
-Optimize a model with 3 rows, 4 columns and 9 nonzeros (Min)
-Model fingerprint: 0x2094aaeb
-Model has 1 linear objective coefficients
-Coefficient statistics:
-  Matrix range     [1e+00, 3e+00]
-  Objective range  [1e+00, 1e+00]
-  Bounds range     [0e+00, 0e+00]
-  RHS range        [1e+00, 2e+00]
-Presolve removed 3 rows and 4 columns
-Presolve time: 0.00s
-Presolve: All rows and columns removed
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    0.0000000e+00   0.000000e+00   0.000000e+00      0s
-
-Solved in 0 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  0.000000000e+00
-
-Wrote result file 'results/a.sol'
-
-
-Gurobi 13.0.0 (mac64[arm], gurobi_cl) logging started Tue Dec 16 18:26:01 2025
-
-Set parameter Username
-Set parameter LicenseID to value 2755094
-Set parameter LogFile to value "gurobi.log"
-Using license file /Users/lucanb/gurobi.lic
-Academic license - for non-commercial use only - expires 2026-12-15
-
-Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 24.6.0 24G84)
-Copyright (c) 2025, Gurobi Optimization, LLC
-
-Warning: Numeric variable name in LP file ('0') - often the result
-         of a constant term in the left-hand side of a constraint.
-
-Read LP format model from file b.lp
-Reading time = 0.00 seconds
-obj: 3 rows, 4 columns, 9 nonzeros
-
-Using Gurobi shared library /Library/gurobi1300/macos_universal2/lib/libgurobi130.dylib
-
-CPU model: Apple M4 Pro
-Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
-
-Optimize a model with 3 rows, 4 columns and 9 nonzeros (Min)
-Model fingerprint: 0x3b27ad67
-Model has 1 linear objective coefficients
-Coefficient statistics:
-  Matrix range     [1e+00, 3e+00]
-  Objective range  [1e+00, 1e+00]
-  Bounds range     [0e+00, 0e+00]
-  RHS range        [1e+00, 3e+00]
-Presolve removed 3 rows and 4 columns
-Presolve time: 0.00s
-Presolve: All rows and columns removed
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    0.0000000e+00   0.000000e+00   0.000000e+00      0s
-
-Solved in 0 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  0.000000000e+00
-
-Wrote result file 'results/b.sol'
-
-
-Gurobi 13.0.0 (mac64[arm], gurobi_cl) logging started Tue Dec 16 18:31:20 2025
-
-Set parameter Username
-Set parameter LicenseID to value 2755094
-Set parameter LogFile to value "gurobi.log"
-Using license file /Users/lucanb/gurobi.lic
-Academic license - for non-commercial use only - expires 2026-12-15
-
-Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 24.6.0 24G84)
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
 Copyright (c) 2025, Gurobi Optimization, LLC
 
 Error reading LP format file a.lp at line 2
@@ -102,4 +16,145 @@ Neighboring tokens: " obj: 2 x1 + 1 x2 + 3 x4 "
 
 
 Error 10012: Unable to read file
+
+
+Gurobi 13.0.0 (mac64[arm], gurobi_cl) logging started Wed Dec 17 12:26:16 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2755094
+Set parameter LogFile to value "gurobi.log"
+Using license file /Users/lucanb/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-12-15
+
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file a.lp
+Reading time = 0.00 seconds
+obj: 2 rows, 4 columns, 6 nonzeros
+
+Using Gurobi shared library /Library/gurobi1300/macos_universal2/lib/libgurobi130.dylib
+
+CPU model: Apple M4 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 2 rows, 4 columns and 6 nonzeros (Min)
+Model fingerprint: 0x32ab3f33
+Model has 3 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 3e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [8e+00, 1e+01]
+Presolve removed 2 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    9.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  9.000000000e+00
+
+Wrote result file 'results/a.sol'
+
+
+Gurobi 13.0.0 (mac64[arm], gurobi_cl) logging started Wed Dec 17 12:26:16 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2755094
+Set parameter LogFile to value "gurobi.log"
+Using license file /Users/lucanb/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-12-15
+
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Error reading LP format file b.lp at line 3
+LP format file must begin with a keyword
+Neighboring tokens: " obj: -2 x1 - x2 Subject To c1: 2 "
+
+
+Error 10012: Unable to read file
+
+
+Gurobi 13.0.0 (mac64[arm], gurobi_cl) logging started Wed Dec 17 12:28:30 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2755094
+Set parameter LogFile to value "gurobi.log"
+Using license file /Users/lucanb/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-12-15
+
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file a.lp
+Reading time = 0.00 seconds
+obj: 2 rows, 4 columns, 6 nonzeros
+
+Using Gurobi shared library /Library/gurobi1300/macos_universal2/lib/libgurobi130.dylib
+
+CPU model: Apple M4 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 2 rows, 4 columns and 6 nonzeros (Min)
+Model fingerprint: 0x32ab3f33
+Model has 3 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 3e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [8e+00, 1e+01]
+Presolve removed 2 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    9.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  9.000000000e+00
+
+Wrote result file 'results/a.sol'
+
+
+Gurobi 13.0.0 (mac64[arm], gurobi_cl) logging started Wed Dec 17 12:28:30 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2755094
+Set parameter LogFile to value "gurobi.log"
+Using license file /Users/lucanb/gurobi.lic
+Academic license - for non-commercial use only - expires 2026-12-15
+
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
+Copyright (c) 2025, Gurobi Optimization, LLC
+
+Read LP format model from file b.lp
+Reading time = 0.00 seconds
+obj: 4 rows, 6 columns, 12 nonzeros
+
+Using Gurobi shared library /Library/gurobi1300/macos_universal2/lib/libgurobi130.dylib
+
+CPU model: Apple M4 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 4 rows, 6 columns and 12 nonzeros (Min)
+Model fingerprint: 0xaeca91a7
+Model has 2 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e+00, 5e+00]
+Presolve removed 1 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 2 columns, 6 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -3.0000000e+00   4.977500e-01   0.000000e+00      0s
+       3   -2.5789474e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -2.578947368e+00
+
+Wrote result file 'results/b.sol'
 
