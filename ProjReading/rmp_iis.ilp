@@ -1,0 +1,32 @@
+\ Model RMP_LP_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+\ Signature: 0x33a4873b18c9c60f
+Minimize
+ 
+Subject To
+ Demand_k1: y_k1_0 = 1
+ Demand_k2: y_k2_0 = 1
+ Demand_k3: y_k3_0 = 1
+ Demand_k4: y_k4_0 = 1
+ Demand_k5: y_k5_0 = 1
+ Cap_0_3: - 28 x_0_3 + 240 y_k1_0 + 160 y_k3_0 + 100 y_k5_0 <= 0
+ Cap_1_4: - 28 x_1_4 + 180 y_k2_0 + 120 y_k4_0 <= 0
+ Cap_3_4: - 28 x_3_4 + 240 y_k1_0 <= 0
+ Cap_3_5: - 28 x_3_5 + 100 y_k5_0 <= 0
+ Cap_2_1: - 28 x_2_1 + 120 y_k4_0 <= 0
+ Fleet: 2 x_0_1 + 4 x_0_2 + 3 x_0_3 + 2 x_1_0 + 2 x_1_3 + x_1_2 + 3 x_1_5
+   + 3 x_1_4 + 2 x_3_1 + 2 x_3_4 + x_3_5 + 3 x_3_2 + 3 x_3_0 + 2 x_4_3
+   + 4 x_4_5 + 3 x_4_1 + 5 x_4_2 + 4 x_2_0 + 4 x_2_5 + x_2_1 + 3 x_2_3
+   + 5 x_2_4 + 4 x_5_2 + 4 x_5_4 + x_5_3 + 3 x_5_1 <= 110
+Bounds
+ x_0_3 free
+ x_1_4 free
+ x_3_4 free
+ x_3_5 free
+ x_2_1 free
+ y_k1_0 free
+ y_k2_0 free
+ y_k3_0 free
+ y_k4_0 free
+ y_k5_0 free
+End

@@ -1,0 +1,11 @@
+Top sigma (capacity duals): [((0, 1), 0.0), ((0, 2), 0.0), ((1, 0), 0.0), ((1, 3), 0.0), ((1, 2), 0.0)]
+Iter 01 | RMP obj=6381.3793 | added_routes=1 | delta(Beta)=0.000000 | gamma(Fleet)=0.000000
+Top sigma (capacity duals): [((0, 1), 0.0), ((0, 2), 0.0), ((1, 0), 0.0), ((1, 3), 0.0), ((1, 2), 0.0)]
+Iter 02 | RMP obj=5894.1379 | added_routes=2 | delta(Beta)=0.000000 | gamma(Fleet)=-157.000000
+Top sigma (capacity duals): [((0, 1), 0.0), ((0, 2), 0.0), ((1, 0), 0.0), ((1, 3), 0.0), ((1, 5), 0.0)]
+Iter 03 | RMP obj=5894.1379 | added_routes=2 | delta(Beta)=0.000000 | gamma(Fleet)=-157.000000
+Top sigma (capacity duals): [((0, 1), 0.0), ((0, 2), 0.0), ((1, 3), 0.0), ((1, 5), 0.0), ((3, 1), 0.0)]
+Iter 04 | RMP obj=5894.1379 | added_routes=1 | delta(Beta)=0.000000 | gamma(Fleet)=-157.000000
+Top sigma (capacity duals): [((0, 2), 0.0), ((1, 3), 0.0), ((1, 5), 0.0), ((3, 1), 0.0), ((3, 0), 0.0)]
+Iter 05 | RMP obj=5894.1379 | added_routes=0 | delta(Beta)=0.000000 | gamma(Fleet)=-157.000000
+Convergență: nu există rute cu cost redus negativ.
