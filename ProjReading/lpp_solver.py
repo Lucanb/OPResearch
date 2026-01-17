@@ -262,14 +262,12 @@ def demo():
     # Fast: 0-1-3-4 (timp mic)
     # Slow: 0-2-5-4 (timp mai mare)
     edges_data = [
-        (0, 1, 2), (1, 3, 2), (3, 4, 2),      # FAST corridor
-        (0, 2, 4), (2, 5, 4), (5, 4, 4),      # SLOW corridor
+        (0, 1, 2), (1, 3, 2), (3, 4, 2),
+        (0, 2, 4), (2, 5, 4), (5, 4, 4),
 
-        # muchii de legătură (permit rute mixte / ocoliri)
         (1, 2, 1), (3, 5, 1),
         (2, 3, 3), (1, 5, 3),
 
-        # cereri locale (ca să încarce arcele fast)
         (1, 4, 3), (0, 3, 3), (2, 4, 5),
     ]
 
@@ -278,12 +276,10 @@ def demo():
         G.add_edge(v, u, time=t)
 
     demands = {
-        # împing puternic pe coridorul FAST (0-1-3-4)
         "k1": Demand(o=0, d=4, q=240, Tmax=20, taumax=4),
         "k2": Demand(o=1, d=4, q=180, Tmax=18, taumax=4),
         "k3": Demand(o=0, d=3, q=160, Tmax=15, taumax=4),
 
-        # cereri care pot ocoli prin SLOW sau mixte
         "k4": Demand(o=2, d=4, q=120, Tmax=22, taumax=4),
         "k5": Demand(o=0, d=5, q=100, Tmax=22, taumax=4),
     }
